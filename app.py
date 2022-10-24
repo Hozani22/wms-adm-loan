@@ -1,6 +1,6 @@
 import pandas as pd 
 import streamlit as st 
-#import plotly.express as px
+import plotly.express as px
 #from openpyxl import Workbook
 from PIL import Image
 import numpy as np
@@ -38,3 +38,4 @@ excel_file = 'dataset.csv' #F:/xampp/htdocs/MS/firstPY/dataset.csv
 loan_data = pd.read_csv(excel_file,header=0)
 
 st.dataframe(loan_data)
+
